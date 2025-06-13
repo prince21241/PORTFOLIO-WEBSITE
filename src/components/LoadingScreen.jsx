@@ -1,8 +1,28 @@
+import { useEffect, useState } from "react";
+
 export const LoadingScreen = () => {
+  const [text, setText] = useState("");
+  const fullText = "<Hello World/>";
+
+  useEffect(() => {
+    let index = 0;
+    const intrval = setInterval(() => {
+      setText(fullText.substring(0, index));
+      index++;
+
+      if (index > fullText.length) {
+        clearInterval(intrval);
+      }
+    }, 100);
+
+    return () => clearInterval(intrval);
+  });
+
   return (
     <div classname="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col item center justify-center">
       <div className="mb-4 text-4xl font-mono font-bold">
-        Hello World<span classname="animate-blink ml-1"></span>
+        {text}
+        <span classname="animate-blink ml-1"></span>
       </div>
 
       <div classname="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
