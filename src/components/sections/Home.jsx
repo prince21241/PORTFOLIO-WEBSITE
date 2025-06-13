@@ -9,7 +9,7 @@ export const Home = () => {
           Hi, I'm Prince Raval
         </h1>
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          I'm a full-stack developer who loves to make clean web application, My
+          I'm a Front-End developer who loves to make clean web application, My
           goal is to Bulid solution that offers Excellent perfromance and
           wonderful user expercience
         </p>
