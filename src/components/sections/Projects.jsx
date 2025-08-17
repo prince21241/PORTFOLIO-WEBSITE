@@ -166,4 +166,35 @@ const projectData = [
       },
     ],
   },
+  {
+    title: "gym 30 day challenge",
+    icon: "🏋🏽🔥💪🏼🎧",
+    description:
+      "A modern, responsive fitness app built with React + Vite for exploring exercises, tracking workouts, and monitoring progress.",
+    tech: [
+      "React 18",
+      "Vite",
+      "React Router",
+      "JavaScript (ES)",
+      "CSS3 / SCSS",
+      "Lucide React (icons)",
+      "Fetch API / REST API Integration",
+      "ExerciseDB API (via RapidAPI)",
+      "Local Storage",
+      "ESLint",
+      "Prettier",
+      "Husky (Git hooks)",
+    ],
+    color: "green",
+    links: [
+      {
+        label: "View Project",
+        url: "https://github.com/prince21241/gym-app?tab=readme-ov-file",
+      },
+      {
+        label: "Live Demo",
+        url: "https://gym30day.netlify.app/",
+      },
+    ],
+  },
 ];
