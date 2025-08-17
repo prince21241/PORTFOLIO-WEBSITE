@@ -171,10 +171,10 @@ export const About = () => {
           <div className="rounded-xl p-8 border-white/10 border mt-8 hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
             <p className="text-gray-300 mb-2">
-              Associate in Science (in progress) — Sandhills Community College
+              Associate in Science — Sandhills Community College
             </p>
             <p className="text-gray-300 mb-2">
-              TripleTen — Software Engineering Program (Completed)
+              TripleTen — Software Engineering Program
             </p>
           </div>
         </div>
