@@ -1,3 +1,4 @@
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Projects = () => {
@@ -197,4 +198,37 @@ const projectData = [
       },
     ],
   },
+  {
+    title: "DevLink",
+    icon: "🔗",
+    description:
+      "A full-stack social networking platform for developers. Features include JWT authentication, user profiles, posts, and connections. Built with a clean React + Node.js architecture and deployed on Vercel + Render.",
+    tech: [
+      "React 18",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Auth",
+      "TailwindCSS",
+      "Cloudinary (Image Uploads)",
+      "Vercel (Frontend)",
+      "Render (Backend)"
+    ],
+    color: "blue",
+    links: [
+      {
+        label: "Frontend",
+        url: "https://github.com/prince21241/devlink-frontend",
+      },
+      {
+        label: "Backend",
+        url: "https://github.com/prince21241/devlink-backend",
+      },
+      {
+        label: "Live Demo",
+        url: "https://devlink-frontend-1.onrender.com/",
+      },
+    ],
+  },
+  
 ];
